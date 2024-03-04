@@ -1,0 +1,19 @@
+Follow these steps:
+1. go to https://mariadb.org/download
+2. select your operating system, architecture, package type and press download. If it does not work then try with a different mirror.
+3. open the setup and click next.
+4. accept the License Agreement and click next. 
+5. click Next on the Custom Setup section.
+6. under "Default instance properties" section, set your root password and click next.
+7. uncheck "Enable networking" option.
+8. click Install.
+9. on your desktop open the HeidiSQL icon.
+10. in the left section, make sure "local db server" is selected.
+11. in the right section, enter your user name and password.
+12. When everything loads, make sure "local db server" is selected in the left section then click right mouse button on it to open options.
+13. select "Create New" then "Database"
+14. name the database then select it in the left section.
+15. go to File menu on the top left and select "Run SQL file" option.
+16. search and select "Airbnb database.sql" and click open.
+
+Now the database will be loaded with tables and all data.
